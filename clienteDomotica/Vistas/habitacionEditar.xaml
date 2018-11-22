@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="clienteDomotica.Vistas.habitacionEditar">
+   <ScrollView>
+        
+        <StackLayout>
+            
+            <Image x:Name="PhotoImage" Source="habitacionb.jpg" WidthRequest="100" HeightRequest="140" Aspect="AspectFill"></Image>
+            
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                
+                <Image x:Name="imgCamara"  Source="camera.png" BackgroundColor="Transparent" HeightRequest="35" WidthRequest="35" Aspect="Fill" ></Image>
+                <Image x:Name="imgGaleria" Source="gallery.png" BackgroundColor="Transparent" HeightRequest="35" WidthRequest="35" Aspect="Fill" Margin="60,0,0,0"></Image>
+                
+            </StackLayout>
+            
+            <StackLayout x:Name="Controles" Margin="5,40,5,0">
+                <Entry Text="Habitacion 1" FontSize="Medium" x:Name="etUsuario" HorizontalTextAlignment="Center"></Entry>   
+            
+                 <Button x:Name="btnActualizarHabitacion" Text="Actualizar" BorderRadius="10" FontSize="Medium" BackgroundColor="Blue" TextColor="White" Margin="0,20,0,0"></Button>
+            </StackLayout>
+            
+        </StackLayout>
+        
+    </ScrollView>
+</ContentPage>

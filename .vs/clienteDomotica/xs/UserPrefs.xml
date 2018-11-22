@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{AE00207D-E297-4B6E-8B45-D6BA461E7D78}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="clienteDomotica/Vistas/configuracion.xaml">
+    <Files>
+      <File FileName="clienteDomotica/Vistas/habitaciones.xaml.cs" Line="47" Column="24" />
+      <File FileName="clienteDomotica/Vistas/configuracion.xaml" Line="21" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.clienteDomotica.Android PreferredExecutionTarget="Android.ZY322PBH7Q" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.ItemProperties.clienteDomotica.iOS automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+</Properties>

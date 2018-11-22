@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="SQLite.Net-PCL" Version="3.1.1" />
+    <PackageReference Include="SQLite.Net.Core-PCL" Version="3.1.1" />
+    <PackageReference Include="Xam.Plugin.Media" Version="3.0.1" />
+    <PackageReference Include="Plugin.Permissions" Version="1.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="2.7.0" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="1.1.4.168" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Vistas\" />
+    <Folder Include="Clases\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="BD\" />
+    <Folder Include="listaEjemplo\" />
+    <Folder Include="Interfaces\Inmuebles\" />
+    <Folder Include="Interfaces\Habitaciones\" />
+    <Folder Include="Interfaces\Dispositivos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Vistas\login.cs" />
+    <Compile Remove="Vistas\habitacionEditar.cs" />
+    <Compile Remove="Vistas\Dispositivos.xaml.cs" />
+    <Compile Remove="Vistas\dispositivos.cs" />
+    <Compile Remove="MainView.xaml.cs" />
+    <Compile Remove="Interfaces\RestService.cs" />
+    <Compile Remove="Interfaces\EmptyInterface.cs" />
+    <Compile Remove="listElementos\CardViewTemplate.cs" />
+    <Compile Remove="listElementos\CardViewTemplate.xaml.cs" />
+    <Compile Remove="Interfaces\Dispositivos\labelDispositivo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="listElementos\CardViewTemplate.xaml" />
+    <EmbeddedResource Remove="listElementos\main.xaml" />
+  </ItemGroup>
+</Project>
